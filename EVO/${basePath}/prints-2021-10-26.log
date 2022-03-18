@@ -1,0 +1,8 @@
+01:37:40.912 [main] INFO  uiAutomation.LogTest - This is just Info
+01:37:40.914 [main] ERROR uiAutomation.LogTest - This is error
+01:37:40.914 [main] DEBUG uiAutomation.LogTest - This is debug message
+01:37:40.914 [main] FATAL uiAutomation.LogTest - this is fatal message
+01:48:24.211 [main] INFO  uiAutomation.LogTest - This is just Info
+01:48:24.213 [main] ERROR uiAutomation.LogTest - This is error
+01:48:24.213 [main] DEBUG uiAutomation.LogTest - This is debug message
+01:48:24.213 [main] FATAL uiAutomation.LogTest - this is fatal message

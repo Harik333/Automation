@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="apiAutomation.JSONOperations"/>
+      <class name="uiAutomation.Set110"/>
+      <class name="uiAutomation.FileUploadAutoIT"/>
+      <class name="uiAutomation.FacebookLaunchTest"/>
+      <class name="apiAutomation.GetWeather"/>
+      <class name="dataBaseAutomation.RetrieveDBData"/>
+      <class name="excelAutomation.RetrieveCellData"/>
+      <class name="uiAutomation.LogTest"/>
+      <class name="apiAutomation.FileUpload"/>
+      <class name="uiAutomation.SubmitForm"/>
+      <class name="apiAutomation.ResponseAsStrig"/>
+      <class name="apiAutomation.RequestAsFile"/>
+      <class name="uiAutomation.Set2"/>
+      <class name="excelAutomation.WriteCellData"/>
+      <class name="uiAutomation.SubmitFormPF"/>
+      <class name="excelAutomation.Constrain"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
