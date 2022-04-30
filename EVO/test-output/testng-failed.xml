@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="excelAutomation.WriteCellData">
+      <class name="uiAutomation.FileUploadRobotClass">
         <methods>
-          <include name="writeCellData"/>
+          <include name="fileupROBOT"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- excelAutomation.WriteCellData -->
+      </class> <!-- uiAutomation.FileUploadRobotClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
