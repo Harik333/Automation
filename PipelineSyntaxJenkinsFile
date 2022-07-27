@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Project being built via SCM'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Project being Test via SCM'
+            }
+        }
+    }
+}
